@@ -42,7 +42,9 @@ html {
 }
 
 body {
-	background-image: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png');
+	background-size: cover;
+	background-image: url('../imagens/madeira.jpg');
+	
 }
 
 /**********************************/
@@ -60,6 +62,10 @@ body {
 	box-shadow: var(--plaque-shadow);
 	display: flex;
 	justify-content: center;
+	border-right: .1rem solid rgba(0, 0, 0, 0.250);
+	border-bottom: .1rem solid rgba(0, 0, 0, 0.250);
+	border-top: .1rem solid rgba(0, 0, 0, 0.185);
+	border-left: .1rem solid rgba(0, 0, 0, 0.05);
 }
 
 /**********************************/
